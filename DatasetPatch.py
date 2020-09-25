@@ -9,7 +9,7 @@ class VideoPatchData(Dataset):
         super(VideoPatchData, self).__init__()
         if database == 'LIVE':
             video_info_file = 'data/'+ database + '_' + file_name + '.txt'
-            self.video_patch_path = '/mnt/disk/wuwei/VideoData/LIVEVideoQualityAssessmentDatabase/p_112_80_8_30/'
+            self.video_patch_path = 'Set your video patch path'
             img_height, img_width = (432, 768)
 
         video_info_id = open(video_info_file, mode='r')
