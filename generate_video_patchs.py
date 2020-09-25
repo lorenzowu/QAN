@@ -10,7 +10,7 @@ device = torch.device('cuda:0')
 
 
 if database == 'LIVE':
-    video_database_path = 'your video database path/'
+    video_database_path = 'Set your video database path/'
     video_info_file = 'data/LIVE_Video_Quality_Assessment_Database_videos_y.txt'
     database_info_file = 'data/LIVE_info.xlsx'
     img_height, img_width = (432, 768)
